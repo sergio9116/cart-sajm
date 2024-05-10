@@ -1,0 +1,29 @@
+.filterprice {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.filterprice__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filterprice__item input {
+    width: 150px;
+}
+
+.filterprice__btn {
+    background-color: #F85555;
+     color: white;
+     border-radius: 5px;
+     display: block;
+     padding: 8px 15px;
+     border: none;
+     margin-top: 5px;
+}

@@ -1,0 +1,41 @@
+.homepage__filters {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.homepage__filtername {
+    display: flex;
+}
+
+.homepage__filtername input {
+    width: 600px;
+    height: 45px;
+}
+
+.homepage__btn::before {
+    content: 'Dark';
+}
+
+.dark .homepage__btn::before {
+    content: 'Light';
+}
+
+.homepage__container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.homepage__search {
+    width: 30%;
+    border: none;
+    color: #fff;
+    background-color: #F85555;
+    font-size: 1.1rem;
+}

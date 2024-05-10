@@ -1,0 +1,35 @@
+.navbar {
+    background-color: orange;
+    padding: 14px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.458);
+}
+
+.navbar a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar__title {
+    color: #f85555;
+}
+
+.navbar__list {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar__item {
+    font-size: 25px;
+    gap: 30px;
+    margin-right: 35px;
+    color: black;
+}
+
+ion-icon {
+    font-size: 30px;
+}
